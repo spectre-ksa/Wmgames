@@ -5,7 +5,7 @@ const Canvas = require("canvas");
 const jimp = require("jimp");
    let points = {}
    
-const prefix = '*'
+const prefix = '#'
   client.on('message', message => {
     if(message.author.bot) return;
             if (!points[message.author.id]) points[message.author.id] = {
@@ -579,7 +579,7 @@ reaction3.on("collect", r => {
     })
 }
 });
-const devs = ["472951521798127626"]
+const devs = ["434642311591493632"]
 
 const adminprefix = "#";
 client.on('message', message => {
