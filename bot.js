@@ -3,6 +3,7 @@ const client = new Discord.Client();
 const fs = require("fs"); 
 const Canvas = require("canvas");
 const jimp = require("jimp");
+require('events').EventEmitter.defaultMaxListeners = 15;
    let points = {}
    
 const prefix = '#'
